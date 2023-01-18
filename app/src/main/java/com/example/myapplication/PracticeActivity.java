@@ -3,12 +3,14 @@ package com.example.myapplication;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class PracticeActivity extends AppCompatActivity {
-
-    private Button button_log;
+    private Button buttonLog;
+    private Button buttonToast;
     public static String TAG = "demo";
 
     @Override
@@ -17,13 +19,24 @@ public class PracticeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_practice);
 
         setTitle("Practice Activity");
-        button_log = findViewById(R.id.button_log);
 
-        button_log.setOnClickListener(new View.OnClickListener() {
+        buttonLog = findViewById(R.id.buttonLog);
+        buttonToast = findViewById(R.id.buttonToast);
+
+        buttonLog.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Log.d(TAG, "Practice!Practice!!Practice!!!");
             }
-        }
+        });
+
+        buttonToast = findViewById(R.id.buttonToast);
+        buttonToast.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(PracticeActivity.this, "Now push to GitHub and Submit!", Toast.LENGTH_SHORT).show();
+            }
+        });
+
     }
 }
