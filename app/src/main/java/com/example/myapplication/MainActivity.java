@@ -8,15 +8,14 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    private Button buttonLog;
-    private Button buttonToast;
     private Button buttonPractice;
+    private Button buttonInClass01;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        setTitle("CS5520");
+        setTitle("In Class Assignments");
 
       buttonPractice = findViewById(R.id.buttonPractice);
 
@@ -28,6 +27,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        buttonInClass01 = findViewById(R.id.buttonInClass01);
+        buttonInClass01.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, InClass01.class);
+                startActivity(intent);
+            }
+        });
     }
 
 }
