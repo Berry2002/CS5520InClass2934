@@ -3,4 +3,6 @@
     <string name="weight_hint">Your weight in pounds</string>
     <string name="height_hint_feet">feet</string>
     <string name="height_hint_inches">inches</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

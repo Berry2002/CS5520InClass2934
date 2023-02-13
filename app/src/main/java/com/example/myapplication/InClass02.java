@@ -3,16 +3,11 @@ package com.example.myapplication;
 import androidx.activity.result.ActivityResult;
 import androidx.activity.result.ActivityResultCallback;
 import androidx.activity.result.ActivityResultLauncher;
-import androidx.activity.result.contract.ActivityResultContract;
 import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import android.os.Parcelable;
-import android.util.Log;
-import android.view.DragEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -58,15 +53,15 @@ public class InClass02 extends AppCompatActivity {
 
         setTitle("Edit Profile Activity");
 
-        editTextName = findViewById(R.id.editTextName);
-        editTextEmail = findViewById(R.id.editTextEmail);
-        imageViewAvatar = findViewById(R.id.imageViewAvatar);
+        editTextName = findViewById(R.id.editTextNameFragment);
+        editTextEmail = findViewById(R.id.editTextEmailFragment);
+        imageViewAvatar = findViewById(R.id.imageViewAvatarFragment);
         textViewIUse = findViewById(R.id.textViewIUse);
         radioButtonAndriod = findViewById(R.id.radioButtonAndriod);
         radioButtoniOS = findViewById(R.id.radioButtoniOS);
-        seekBarMood = findViewById(R.id.seekBarMood);
-        imageViewMood = findViewById(R.id.imageViewMood);
-        buttonSubmit = findViewById(R.id.buttonSubmit);
+        seekBarMood = findViewById(R.id.seekBarMoodFragment);
+        imageViewMood = findViewById(R.id.imageViewMoodFragment);
+        buttonSubmit = findViewById(R.id.buttonSubmitFragment);
         radioGroup = findViewById(R.id.radioGroup);
         textViewCurrentMood2 = findViewById(R.id.textViewCurrentMood2);
 

@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView1"
+        android:id="@+id/imageView1Fragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="54dp"
@@ -28,7 +28,7 @@
         app:srcCompat="@drawable/avatar_f_1" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageView2Fragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="110dp"
@@ -38,42 +38,42 @@
         app:srcCompat="@drawable/avatar_m_3" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageView3Fragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="54dp"
         android:layout_marginTop="50dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView1"
+        app:layout_constraintTop_toBottomOf="@+id/imageView1Fragment"
         app:srcCompat="@drawable/avatar_f_2" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/imageView4Fragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="54dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2Fragment"
         app:srcCompat="@drawable/avatar_m_2" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/imageView5Fragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="54dp"
         android:layout_marginTop="50dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3Fragment"
         app:srcCompat="@drawable/avatar_f_3" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/imageView6Fragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="54dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4Fragment"
         app:srcCompat="@drawable/avatar_m_1" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -26,12 +26,12 @@ public class DisplayActivity extends AppCompatActivity {
 
         setTitle("Display Activity");
 
-        imageViewDisplayAvatar = findViewById(R.id.imageViewDisplayAvatar);
-        textViewDisplayName = findViewById(R.id.textViewDisplayName);
-        textViewDisplayEmail = findViewById(R.id.textViewDisplayEmail);
-        textViewDisplayIUse = findViewById(R.id.textViewDisplayIUse);
-        textViewDisplayIAm = findViewById(R.id.textViewDisplayIAm);
-        imageViewDisplayMood = findViewById(R.id.imageViewDisplayMood);
+        imageViewDisplayAvatar = findViewById(R.id.imageViewDisplayAvatarFragment);
+        textViewDisplayName = findViewById(R.id.textViewDisplayNameFragment);
+        textViewDisplayEmail = findViewById(R.id.textViewDisplayEmailFragment);
+        textViewDisplayIUse = findViewById(R.id.textViewDisplayIUseFragment);
+        textViewDisplayIAm = findViewById(R.id.textViewDisplayIAmFragment);
+        imageViewDisplayMood = findViewById(R.id.imageViewDisplayMoodFragment);
 
         if (getIntent() != null && getIntent().getExtras() != null) {
             Profile profile = getIntent().getParcelableExtra(InClass02.Profile_Key);

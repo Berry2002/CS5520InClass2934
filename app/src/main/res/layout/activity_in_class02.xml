@@ -7,7 +7,7 @@
     tools:context=".InClass02">
 
     <EditText
-        android:id="@+id/editTextName"
+        android:id="@+id/editTextNameFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextEmail"
+        android:id="@+id/editTextEmailFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
@@ -29,17 +29,17 @@
         android:hint="Email"
         android:inputType="textEmailAddress"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextName" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextNameFragment" />
 
     <ImageView
-        android:id="@+id/imageViewAvatar"
+        android:id="@+id/imageViewAvatarFragment"
         android:layout_width="123dp"
         android:layout_height="116dp"
         android:layout_marginTop="60dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextEmail"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEmailFragment"
         app:srcCompat="@drawable/select_avatar" />
 
     <TextView
@@ -51,7 +51,7 @@
         android:text="I use"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewAvatar" />
+        app:layout_constraintTop_toBottomOf="@+id/imageViewAvatarFragment" />
 
     <RadioGroup
         android:id="@+id/radioGroup"
@@ -76,7 +76,7 @@
     </RadioGroup>
 
     <SeekBar
-        android:id="@+id/seekBarMood"
+        android:id="@+id/seekBarMoodFragment"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
@@ -101,19 +101,19 @@
         app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
 
     <ImageView
-        android:id="@+id/imageViewMood"
+        android:id="@+id/imageViewMoodFragment"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.75"
-        app:layout_constraintStart_toEndOf="@+id/seekBarMood"
+        app:layout_constraintStart_toEndOf="@+id/seekBarMoodFragment"
         app:layout_constraintTop_toBottomOf="@+id/textViewCurrentMood"
         app:srcCompat="@drawable/happy" />
 
     <Button
-        android:id="@+id/buttonSubmit"
+        android:id="@+id/buttonSubmitFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -121,7 +121,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/seekBarMood" />
+        app:layout_constraintTop_toBottomOf="@+id/seekBarMoodFragment" />
 
     <TextView
         android:id="@+id/textViewCurrentMood2"
@@ -133,6 +133,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/textViewCurrentMood"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewAvatar" />
+        app:layout_constraintTop_toBottomOf="@+id/imageViewAvatarFragment" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

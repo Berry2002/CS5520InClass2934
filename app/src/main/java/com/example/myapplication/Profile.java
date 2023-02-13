@@ -13,6 +13,9 @@ public class Profile implements Parcelable {
     private String mood;
     private int moodImage;
 
+    public Profile() {
+
+    }
     public Profile(int avatar, String name, String email, String device, String mood, int moodImage) {
         this.avatar = avatar;
         this.name = name;

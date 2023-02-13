@@ -7,7 +7,7 @@
     tools:context=".DisplayActivity">
 
     <ImageView
-        android:id="@+id/imageViewDisplayAvatar"
+        android:id="@+id/imageViewDisplayAvatarFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
@@ -17,7 +17,7 @@
         app:srcCompat="@drawable/select_avatar" />
 
     <TextView
-        android:id="@+id/textViewDisplayName"
+        android:id="@+id/textViewDisplayNameFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="52dp"
@@ -25,46 +25,46 @@
         android:textColor="@color/black"
         android:textStyle="italic"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewDisplayAvatar" />
+        app:layout_constraintTop_toBottomOf="@+id/imageViewDisplayAvatarFragment" />
 
     <TextView
-        android:id="@+id/textViewDisplayEmail"
+        android:id="@+id/textViewDisplayEmailFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="52dp"
         android:layout_marginTop="12dp"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewDisplayName" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewDisplayNameFragment" />
 
     <TextView
-        android:id="@+id/textViewDisplayIUse"
+        android:id="@+id/textViewDisplayIUseFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="52dp"
         android:layout_marginTop="12dp"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewDisplayEmail" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewDisplayEmailFragment" />
 
     <TextView
-        android:id="@+id/textViewDisplayIAm"
+        android:id="@+id/textViewDisplayIAmFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="52dp"
         android:layout_marginTop="12dp"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewDisplayIUse" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewDisplayIUseFragment" />
 
     <ImageView
-        android:id="@+id/imageViewDisplayMood"
+        android:id="@+id/imageViewDisplayMoodFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="232dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewDisplayAvatar"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewDisplayAvatarFragment"
         app:srcCompat="@drawable/happy" />
 </androidx.constraintlayout.widget.ConstraintLayout>

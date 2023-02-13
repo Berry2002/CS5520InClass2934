@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 
 public class SelectAvatar extends AppCompatActivity {
@@ -25,12 +24,12 @@ public class SelectAvatar extends AppCompatActivity {
 
         setTitle("Select Avatar");
 
-        imageView1 = findViewById(R.id.imageView1);
-        imageView2 = findViewById(R.id.imageView2);
-        imageView3 = findViewById(R.id.imageView3);
-        imageView4 = findViewById(R.id.imageView4);
-        imageView5 = findViewById(R.id.imageView5);
-        imageView6 = findViewById(R.id.imageView6);
+        imageView1 = findViewById(R.id.imageView1Fragment);
+        imageView2 = findViewById(R.id.imageView2Fragment);
+        imageView3 = findViewById(R.id.imageView3Fragment);
+        imageView4 = findViewById(R.id.imageView4Fragment);
+        imageView5 = findViewById(R.id.imageView5Fragment);
+        imageView6 = findViewById(R.id.imageView6Fragment);
         imageView1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
