@@ -15,13 +15,14 @@ public class MainActivity extends AppCompatActivity {
 
     private Button buttonInClass03;
 
+    private Button buttonInClass04;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setTitle("In Class Assignments");
 
-      buttonPractice = findViewById(R.id.buttonPractice);
+        buttonPractice = findViewById(R.id.buttonPractice);
 
         buttonPractice.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -57,6 +58,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-    }
 
+        buttonInClass04 = findViewById(R.id.buttonInClass04);
+        buttonInClass04.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, InClass04.class);
+                startActivity(intent);
+            }
+        });
+    }
 }
