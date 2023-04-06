@@ -7,6 +7,17 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/buttonInClass08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="inclass08"
+        app:layout_constraintEnd_toEndOf="@+id/buttonInClass06"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="@+id/buttonInClass06"
+        app:layout_constraintTop_toBottomOf="@+id/buttonInClass06" />
+
+    <Button
         android:id="@+id/buttonPractice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
